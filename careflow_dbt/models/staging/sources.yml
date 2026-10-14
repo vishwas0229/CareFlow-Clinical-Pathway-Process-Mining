@@ -1,0 +1,13 @@
+
+version: 2
+
+sources:
+  - name: careflow_raw
+    database: careflow-process-mining-511312
+    schema: careflow_raw
+    description: "Raw synthetic hospital data ingested into BigQuery."
+    tables:
+      - name: ehr_event_log_raw
+        description: "Raw hospital event-level process log."
+      - name: ehr_cases_raw
+        description: "Raw hospital case-level records."
