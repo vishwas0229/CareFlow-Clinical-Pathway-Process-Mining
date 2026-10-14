@@ -1,0 +1,15 @@
+{
+  "raw_event_rows": 4900,
+  "clean_event_rows": 4875,
+  "removed_duplicate_event_ids": 25,
+  "invalid_event_timestamps": 0,
+  "orphan_event_rows_removed": 0,
+  "raw_missing_resource_ids": 50,
+  "unknown_resource_ids_after_cleaning": 50,
+  "clean_unique_event_ids": 4875,
+  "clean_unique_case_ids": 500,
+  "case_table_rows": 500,
+  "first_event_previous_activity_missing": 500,
+  "remaining_duplicate_event_ids": 0,
+  "events_before_arrival": 0
+}

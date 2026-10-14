@@ -1,0 +1,17 @@
+
+version: 2
+
+models:
+  - name: stg_ehr_event_log
+    description: "Deduplicated hospital event log for CareFlow process mining."
+    columns:
+      - name: event_id
+        description: "Unique identifier for each hospital event."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: case_id
+        description: "Identifier linking the event to a hospital case."
+        data_tests:
+          - not_null
