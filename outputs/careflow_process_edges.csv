@@ -1,0 +1,24 @@
+source_activity,target_activity,frequency
+Admission Decision,Bed Assignment,66
+Bed Assignment,Discharge Preparation,66
+Discharge Preparation,Discharge,500
+Doctor Assessment,Admission Decision,9
+Doctor Assessment,Discharge Preparation,65
+Doctor Assessment,Imaging Order,49
+Doctor Assessment,Lab Order,373
+Doctor Assessment,Treatment,78
+Imaging,Treatment,196
+Imaging Order,Imaging,196
+Lab Order,Lab Sample Collection,373
+Lab Result,Imaging Order,147
+Lab Result,Treatment,226
+Lab Sample Collection,Lab Result,373
+Reassessment,Triage,79
+Registration,Triage,500
+Treatment,Admission Decision,47
+Treatment,Discharge Preparation,309
+Treatment,Doctor Assessment,65
+Treatment,Reassessment,79
+Triage,Admission Decision,10
+Triage,Discharge Preparation,60
+Triage,Doctor Assessment,509

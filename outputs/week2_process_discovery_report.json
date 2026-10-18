@@ -1,0 +1,19 @@
+{
+  "directed_transitions": 23,
+  "start_activities": [
+    {
+      "activity": "Registration",
+      "frequency": 500
+    }
+  ],
+  "end_activities": [
+    {
+      "activity": "Discharge",
+      "frequency": 500
+    }
+  ],
+  "duplicate_edges": 0,
+  "missing_edge_values": 0,
+  "self_loops": 0,
+  "process_map_exists": true
+}
