@@ -1,264 +1,253 @@
 # CareFlow — Clinical Pathway Process Mining
 
-**A data analytics pipeline for understanding hospital patient journeys, detecting operational bottlenecks, and analyzing clinical process inefficiencies.**
+**A healthcare analytics pipeline for understanding patient journeys, discovering clinical workflows, and identifying operational bottlenecks using process mining.**
 
 ## Project Overview
 
-CareFlow is a healthcare operations analytics project focused on understanding how patients move through hospital workflows, particularly Emergency Room (ER) pathways.
+CareFlow analyzes synthetic Electronic Health Record (EHR) event logs to understand how patients move through hospital workflows, particularly Emergency Room (ER) pathways.
 
-Traditional dashboards report aggregate metrics such as average waiting time, but they often fail to explain the actual sequence of events experienced by patients. CareFlow aims to use event-log data and process mining to uncover repeated activities, workflow deviations, waiting-time bottlenecks, and opportunities for operational improvement.
-
-The project is being developed as a data pipeline that combines synthetic Electronic Health Record (EHR) event data, Google BigQuery, Python, dbt, PM4Py, and Power BI.
-
-> **Current milestone:** Week 1 — Initial data pipeline, BigQuery ingestion, dbt staging, and data-quality validation.
+The project combines data engineering, data quality validation, process discovery, and operational analytics to identify workflow transitions, repeated activities, potential delays, and opportunities for improvement.
 
 ## Project Objectives
 
-- Generate synthetic hospital case and event-log datasets.
-- Clean and validate event-level healthcare data.
-- Store raw datasets in Google BigQuery.
-- Transform raw event logs using dbt.
-- Validate identifiers, required fields, duplicate records, and case references.
-- Compare locally cleaned data against BigQuery-transformed data.
-- Prepare the data for subsequent process mining and operational dashboard development.
+- Generate and validate synthetic hospital event-log data.
+- Ingest raw data into Google BigQuery.
+- Transform event logs using dbt.
+- Validate event identifiers, timestamps, case references, and required fields.
+- Discover clinical process flows using PM4Py.
+- Analyze waiting times, activity durations, and loop-back behaviour.
+- Develop a Power BI dashboard for operational insights.
 
 ## Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| Python | Synthetic data generation and data cleaning |
-| Anaconda / Conda | Python environment management |
-| Pandas and NumPy | Data manipulation and generation |
+| Python | Data generation, validation, and analysis |
+| Pandas and NumPy | Data manipulation |
 | Google BigQuery | Cloud data warehouse |
 | dbt Core | SQL transformations and data tests |
-| PM4Py | Planned process mining analysis |
-| Power BI | Planned operational analytics dashboard |
-| Git and GitHub | Version control and project tracking |
-| JupyterLab | Development and validation notebooks |
+| PM4Py | Process discovery and process mining |
+| Power BI | Planned operational dashboard |
+| Conda | Python environment management |
+| Git and GitHub | Version control |
 
 ## Architecture
 
 ```text
-Synthetic Hospital Data
+Synthetic Hospital EHR Data
           |
           v
-  Python Data Generator
+    Python Data Pipeline
           |
           v
-      Raw CSV Files
-          |
-          v
- Local Cleaning & Quality Audit
+     Raw CSV Files
           |
           v
     Google BigQuery
           |
           v
-      Raw Datasets
+    dbt Transformations
           |
           v
-     dbt Sources
+  Validated Event Log
           |
           v
-  dbt Staging Model
+   PM4Py Process Discovery
           |
           v
- Data Quality & Validation
+ Operational Metrics and
+   Bottleneck Analysis
           |
           v
-   Process Mining (PM4Py)
-          |
-          v
-   Power BI Dashboard
+    Power BI Dashboard
 ```
 
-*The pipeline through dbt staging has been implemented. Process mining analysis and dashboard development are subsequent project phases.*
+## Current Project Status
 
-## Current Dataset
+**Completed milestone: Week 2 — Event Log Preparation and Process Discovery**
 
-The initial synthetic dataset contains 500 hospital cases.
+| Milestone | Status |
+|---|---|
+| Environment and project setup | Complete |
+| Synthetic data generation | Complete |
+| Local data cleaning and quality audit | Complete |
+| BigQuery raw data ingestion | Complete |
+| dbt staging model | Complete |
+| dbt mart model | Complete |
+| dbt tests | 5 passed |
+| Process transition extraction | Complete |
+| Initial process map and discovery report | Generated |
+| Operational performance metrics | Remaining work |
+| Power BI dashboard | Remaining work |
 
-### Event-level dataset
+## Dataset and Validation
 
-| Metric | Current result |
+The project uses synthetic data for development and demonstration. It does not represent real patient records.
+
+### Event Log
+
+| Metric | Validated result |
 |---|---:|
 | Raw event rows | 4,900 |
-| Distinct raw event IDs | 4,875 |
-| Deliberately introduced duplicate rows | 25 |
 | Cleaned event rows | 4,875 |
-| Event-level columns | 32 |
-| Cases represented | 500 |
-| Cases with loop-back behaviour | 144 |
-| Intentionally missing resource IDs | 50 |
+| Unique event IDs in normalized event log | 4,875 |
+| Distinct cases | 500 |
+| Missing activity names | 0 |
+| Missing event timestamps | 0 |
+| dbt tests passed | 5 |
 
-### Case-level dataset
+The raw event log contains 25 deliberately introduced duplicate rows. The normalized event log contains 4,875 unique event IDs.
 
-| Metric | Current result |
+### Process Discovery Results
+
+The PM4Py process-discovery workflow generated an initial activity-transition map and supporting CSV artifacts.
+
+| Metric | Result |
 |---|---:|
-| Raw case rows | 500 |
-| Cleaned case rows | 500 |
-| Case-level columns | 20 |
+| Directed activity transitions | 23 |
+| Duplicate transition edges | 0 |
+| Transitions with missing edge values | 0 |
+| Self-loop transitions | 0 |
+| Cases starting with Registration | 500 |
+| Cases ending with Discharge | 500 |
 
-The dataset is synthetic and is intended for development, testing, and process-mining demonstrations. It is not real patient data.
+These results describe the current synthetic dataset and should not be interpreted as clinical findings about a real hospital.
 
-## Data Storage
-
-### Local project files
-
-```text
-E:\careflow\
-├── 01_week1_environment_check.ipynb
-├── data\
-│   ├── raw\
-│   │   ├── ehr_event_log_raw.csv
-│   │   └── ehr_cases_raw.csv
-│   └── processed\
-│       ├── ehr_event_log_clean.csv
-│       └── ehr_cases_clean.csv
-├── reports\
-│   └── week1_data_quality_report.json
-├── notebooks\
-├── outputs\
-├── logs\
-├── src\
-└── careflow_dbt\
-    ├── dbt_project.yml
-    ├── models\
-    │   └── staging\
-    │       ├── sources.yml
-    │       ├── stg_ehr_event_log.sql
-    │       └── schema.yml
-    └── README.md
-```
-
-Generated dbt artifacts, logs, and notebook checkpoint files are excluded from version control through `.gitignore`.
-
-### Google BigQuery
+## Google BigQuery
 
 **GCP project ID:** `careflow-process-mining-511312`
 
 | Dataset | Purpose |
 |---|---|
 | `careflow_raw` | Raw source datasets |
-| `careflow_raw_analytics` | dbt staging output and local-clean reference table |
+| `careflow_raw_analytics` | dbt models and analytics tables |
 
-Current tables include:
+Key tables:
 
 - `careflow_raw.ehr_event_log_raw`
 - `careflow_raw.ehr_cases_raw`
 - `careflow_raw_analytics.stg_ehr_event_log`
+- `careflow_raw_analytics.fct_careflow_event_log`
 - `careflow_raw_analytics.ehr_event_log_clean_reference`
 
-The raw event table contains 4,900 rows, while the staging model contains 4,875 rows after deduplication and configured cleaning rules.
+The staging model cleans and deduplicates event records. The mart model provides a normalized event log for process analysis.
 
-## Implemented Data Quality Rules
+## Project Artifacts
 
-The current dbt staging model includes the following rules:
+Generated outputs are stored in the `outputs/` directory.
 
-1. Read the raw event log through a formal dbt source definition.
-2. Remove duplicate event IDs using `ROW_NUMBER()` and `QUALIFY`.
-3. Exclude records missing required event identifiers, case identifiers, or timestamps.
-4. Retain events linked to valid case records.
-5. Normalize missing resource IDs to `Unknown`.
-6. Normalize the literal `None` and blank `comorbidities` values to SQL `NULL`.
-
-The local cleaning pipeline also generates cleaned event and case CSVs and a JSON data-quality report.
-
-## Validation Status
-
-| Validation | Status |
+| Artifact | Description |
 |---|---|
-| Python / Conda environment | Complete |
-| Synthetic data generation | Complete |
-| Local cleaning and quality audit | Complete |
-| BigQuery raw ingestion | Complete |
-| dbt authentication and connection | Complete |
-| dbt source definitions | Configured |
-| dbt staging model | Successful |
-| dbt tests | 3 passed |
-| Raw-to-staging row-count validation | 4,900 raw rows → 4,875 staging rows |
-| Duplicate event IDs in staging | None detected |
-| Missing required event fields in staging | Zero detected |
-| Local vs BigQuery full-row parity | Pending final zero-difference confirmation |
-| Week 1 handoff documentation | In progress |
+| `careflow_as_is_process_map.png` | Initial process map |
+| `careflow_process_edges.csv` | Directed activity transitions |
+| `careflow_start_activities.csv` | Start activity frequencies |
+| `careflow_end_activities.csv` | End activity frequencies |
+| `week2_process_discovery_report.json` | Process discovery summary |
 
-The local cleaned reference table and staging table have the same row count and matching event IDs. A full-row comparison must return zero differing rows before data parity can be marked fully verified.
+The Week 2 implementation report is available at:
+
+`reports/CareFlow_Week_2_Report.md`
+
+## Local Project Structure
+
+```text
+E:\careflow\
+├── careflow_dbt\
+│   └── models\
+│       ├── staging\
+│       │   └── stg_ehr_event_log.sql
+│       └── marts\
+│           ├── fct_careflow_event_log.sql
+│           └── schema.yml
+├── data\
+├── notebooks\
+├── outputs\
+├── reports\
+│   ├── week1_data_quality_report.json
+│   ├── week1_handoff.md
+│   └── CareFlow_Week_2_Report.md
+└── src\
+    └── process_discovery.py
+```
 
 ## Environment Setup
 
 Activate the Conda environment:
 
-```bash
+```cmd
 conda activate careflow
 ```
 
 Navigate to the dbt project:
 
-```bash
+```cmd
 cd /d E:\careflow\careflow_dbt
 ```
 
-Verify the installed tools:
+Verify the environment and dbt configuration:
 
-```bash
+```cmd
 python --version
 dbt --version
-```
-
-Check the dbt configuration and source definitions:
-
-```bash
-dbt parse
 dbt debug
 ```
 
-Build the staging model and run its tests:
+Run the staging and mart models:
 
-```bash
+```cmd
 dbt run --select stg_ehr_event_log
-dbt test --select stg_ehr_event_log
+dbt run --select fct_careflow_event_log
 ```
 
-The BigQuery connection uses dbt OAuth authentication configured locally. Do not commit credentials, OAuth tokens, or `profiles.yml` to GitHub.
+Run the dbt tests:
+
+```cmd
+dbt test
+```
+
+The BigQuery connection uses locally configured authentication. Do not commit credentials, OAuth tokens, or sensitive configuration files.
+
+## Process Discovery
+
+The process-discovery script is located at:
+
+`src/process_discovery.py`
+
+Run it from the project root using the configured Conda environment:
+
+```cmd
+conda activate careflow
+python src\process_discovery.py
+```
+
+The generated process map and supporting CSV and JSON artifacts are saved in `outputs/`.
+
+A clean rerun may require resolving the existing Graphviz DLL/environment issue. Previously generated artifacts are available, but a successful clean rerun should be confirmed after that issue is resolved.
+
+## Remaining Work
+
+### Week 3 — Operational Analysis
+
+- Calculate activity durations and waiting times.
+- Calculate case turnaround time.
+- Quantify loop-back and repeated-activity behaviour.
+- Identify bottlenecks and high-frequency transitions.
+- Validate the derived metrics and document assumptions.
+
+### Subsequent Work
+
+- Build a Power BI dashboard.
+- Present process flows and operational metrics.
+- Document findings, limitations, and recommendations.
+- Perform final validation and prepare project handoff documentation.
 
 ## GitHub Repository
 
 Repository: [CareFlow — Clinical Pathway Process Mining](https://github.com/vishwas0229/CareFlow-Clinical-Pathway-Process-Mining)
 
-The project is tracked on the `main` branch. Commits should represent meaningful implementation milestones, validation results, and documentation changes.
-
-Example commit messages:
-
-```bash
-git add README.md
-git commit -m "docs: update CareFlow project README"
-git push origin main
-```
-
-Before committing, review staged changes and confirm that generated artifacts and credentials are excluded.
-
-## Remaining Work
-
-### Week 1 — Finalization
-
-- Confirm full-row parity between the cleaned local reference and dbt staging output.
-- Record the final validation results in the handoff report.
-- Finalize project documentation and publish the verified changes to GitHub.
-
-### Subsequent phases
-
-- Configure additional dbt tests and transformation models as required.
-- Perform process discovery and process-flow analysis using PM4Py.
-- Calculate operational metrics such as waiting time, activity duration, and loop-back frequency.
-- Build a Power BI dashboard for clinical pathway and bottleneck analysis.
-- Document findings, limitations, and recommendations.
+The project uses the `main` branch for version control. Review changes before committing, and ensure generated artifacts and credentials are handled appropriately.
 
 ## Data and Privacy Notice
 
-CareFlow currently uses synthetic data for development and demonstration. No real patient information should be added to the repository. Credentials and local authentication files must remain outside version control.
-
-## Project Status
-
-**Current milestone:** Initial data pipeline and dbt staging implementation.
-
-**Next milestone:** Final data-quality sign-off, followed by process mining analysis and dashboard development.
+CareFlow uses synthetic data for development and demonstration. Do not add real patient information, credentials, OAuth tokens, or other sensitive information to the repository.
+s
