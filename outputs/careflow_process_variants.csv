@@ -1,0 +1,26 @@
+variant_id,activity_sequence,case_count,percentage
+V001,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Treatment → Discharge Preparation → Discharge,146,29.2
+V002,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Imaging Order → Imaging → Treatment → Discharge Preparation → Discharge,86,17.2
+V003,Registration → Triage → Doctor Assessment → Treatment → Discharge Preparation → Discharge,52,10.4
+V004,Registration → Triage → Doctor Assessment → Imaging Order → Imaging → Treatment → Discharge Preparation → Discharge,25,5.0
+V005,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Treatment → Doctor Assessment → Discharge Preparation → Discharge,24,4.8
+V006,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Treatment → Reassessment → Triage → Discharge Preparation → Discharge,24,4.8
+V007,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Imaging Order → Imaging → Treatment → Doctor Assessment → Discharge Preparation → Discharge,21,4.2
+V008,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Imaging Order → Imaging → Treatment → Reassessment → Triage → Discharge Preparation → Discharge,19,3.8
+V009,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Imaging Order → Imaging → Treatment → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,16,3.2
+V010,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Treatment → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,16,3.2
+V011,Registration → Triage → Doctor Assessment → Treatment → Reassessment → Triage → Discharge Preparation → Discharge,10,2.0
+V012,Registration → Triage → Doctor Assessment → Treatment → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,8,1.6
+V013,Registration → Triage → Doctor Assessment → Imaging Order → Imaging → Treatment → Reassessment → Triage → Discharge Preparation → Discharge,7,1.4
+V014,Registration → Triage → Doctor Assessment → Imaging Order → Imaging → Treatment → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,7,1.4
+V015,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Treatment → Reassessment → Triage → Doctor Assessment → Discharge Preparation → Discharge,6,1.2
+V016,Registration → Triage → Doctor Assessment → Treatment → Doctor Assessment → Discharge Preparation → Discharge,6,1.2
+V017,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Treatment → Reassessment → Triage → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,6,1.2
+V018,Registration → Triage → Doctor Assessment → Imaging Order → Imaging → Treatment → Doctor Assessment → Discharge Preparation → Discharge,5,1.0
+V019,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Treatment → Doctor Assessment → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,4,0.8
+V020,Registration → Triage → Doctor Assessment → Imaging Order → Imaging → Treatment → Doctor Assessment → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,3,0.6
+V021,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Imaging Order → Imaging → Treatment → Doctor Assessment → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,2,0.4
+V022,Registration → Triage → Doctor Assessment → Treatment → Reassessment → Triage → Doctor Assessment → Discharge Preparation → Discharge,2,0.4
+V023,Registration → Triage → Doctor Assessment → Imaging Order → Imaging → Treatment → Reassessment → Triage → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,2,0.4
+V024,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Imaging Order → Imaging → Treatment → Reassessment → Triage → Admission Decision → Bed Assignment → Discharge Preparation → Discharge,2,0.4
+V025,Registration → Triage → Doctor Assessment → Lab Order → Lab Sample Collection → Lab Result → Imaging Order → Imaging → Treatment → Reassessment → Triage → Doctor Assessment → Discharge Preparation → Discharge,1,0.2
