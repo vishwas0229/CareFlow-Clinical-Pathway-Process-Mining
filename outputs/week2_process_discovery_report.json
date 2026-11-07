@@ -1,19 +1,65 @@
 {
-  "directed_transitions": 23,
-  "start_activities": [
-    {
-      "activity": "Registration",
-      "frequency": 500
-    }
-  ],
-  "end_activities": [
-    {
-      "activity": "Discharge",
-      "frequency": 500
-    }
-  ],
-  "duplicate_edges": 0,
-  "missing_edge_values": 0,
-  "self_loops": 0,
-  "process_map_exists": true
+    "total_events": 4875,
+    "total_cases": 500,
+    "total_activities": 14,
+    "total_transitions": 23,
+    "total_variants": 25,
+    "start_activities": {
+        "Registration": 500
+    },
+    "end_activities": {
+        "Discharge": 500
+    },
+    "top_10_transitions": [
+        {
+            "source": "Triage",
+            "target": "Doctor Assessment",
+            "frequency": 509
+        },
+        {
+            "source": "Discharge Preparation",
+            "target": "Discharge",
+            "frequency": 500
+        },
+        {
+            "source": "Registration",
+            "target": "Triage",
+            "frequency": 500
+        },
+        {
+            "source": "Doctor Assessment",
+            "target": "Lab Order",
+            "frequency": 373
+        },
+        {
+            "source": "Lab Order",
+            "target": "Lab Sample Collection",
+            "frequency": 373
+        },
+        {
+            "source": "Lab Sample Collection",
+            "target": "Lab Result",
+            "frequency": 373
+        },
+        {
+            "source": "Treatment",
+            "target": "Discharge Preparation",
+            "frequency": 309
+        },
+        {
+            "source": "Lab Result",
+            "target": "Treatment",
+            "frequency": 226
+        },
+        {
+            "source": "Imaging",
+            "target": "Treatment",
+            "frequency": 196
+        },
+        {
+            "source": "Imaging Order",
+            "target": "Imaging",
+            "frequency": 196
+        }
+    ]
 }
