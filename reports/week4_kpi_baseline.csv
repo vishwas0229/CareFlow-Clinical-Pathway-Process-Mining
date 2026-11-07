@@ -1,0 +1,5 @@
+KPI,Baseline,Proposed Target,Unit
+Incomplete cases with discharge activities,100.0,0%,%
+Transferred cases with explicit transfer activity,0.0,100%,%
+Admitted cases with required admission activities,100.0,100%,%
+Cases with repeated activities,28.8,Set after repetition classification,%

@@ -1,0 +1,6 @@
+Area,AS_IS,TO_BE,Improvement
+Discharged Home,Discharge Preparation -> Discharge,Retain discharge pathway,Preserve existing pathway
+Admitted,Admission Decision -> Bed Assignment -> Discharge,Admission Decision -> Bed Assignment -> Encounter Closure,Clarify admission-specific closure
+Transferred,Discharge Preparation -> Discharge,Transfer Documentation -> Transfer Out,Introduce explicit transfer representation
+Left Before Completion,Discharge Preparation -> Discharge,Incomplete Departure -> Encounter Closure,Separate incomplete departure pathway
+Repeated Activities,144 cases with repeated activities,Classify planned and unplanned repetitions,Improve rework visibility

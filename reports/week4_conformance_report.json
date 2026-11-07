@@ -1,0 +1,37 @@
+{
+    "project": "CareFlow - Clinical Pathway Process Mining",
+    "analysis": "Week 4 Conformance Analysis",
+    "total_cases": 500,
+    "total_events": 4875,
+    "generated_at": "2026-11-07T18:56:13",
+    "rules": [
+        {
+            "rule_id": "CF-R01",
+            "rule": "Incomplete cases should not contain discharge activities",
+            "cases_checked": 16,
+            "violations": 16,
+            "compliant_cases": 0,
+            "violation_rate_percent": 100.0,
+            "classification": "Provisional analytical rule"
+        },
+        {
+            "rule_id": "CF-R02",
+            "rule": "Admitted cases should contain admission decision and bed assignment",
+            "cases_checked": 66,
+            "violations": 0,
+            "compliant_cases": 66,
+            "violation_rate_percent": 0.0,
+            "classification": "Provisional analytical rule"
+        },
+        {
+            "rule_id": "CF-R03",
+            "rule": "Transferred cases should contain an explicit transfer activity",
+            "cases_checked": 38,
+            "violations": 38,
+            "compliant_cases": 0,
+            "violation_rate_percent": 100.0,
+            "classification": "Provisional analytical rule"
+        }
+    ],
+    "interpretation": "Rule violations represent deviations from provisional analytical assumptions, not confirmed clinical violations."
+}

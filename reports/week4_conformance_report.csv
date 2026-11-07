@@ -1,0 +1,4 @@
+rule_id,rule,cases_checked,violations,compliant_cases,violation_rate_percent,classification
+CF-R01,Incomplete cases should not contain discharge activities,16,16,0,100.0,Provisional analytical rule
+CF-R02,Admitted cases should contain admission decision and bed assignment,66,0,66,0.0,Provisional analytical rule
+CF-R03,Transferred cases should contain an explicit transfer activity,38,38,0,100.0,Provisional analytical rule

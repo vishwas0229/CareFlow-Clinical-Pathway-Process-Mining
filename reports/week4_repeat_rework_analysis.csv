@@ -1,0 +1,501 @@
+case_id,disposition,repeated_activity_types,extra_occurrences,reworked_event_count,has_repeated_activity,has_reworked_status,classification
+CF-0000001,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000002,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000003,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000004,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000005,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000006,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000007,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000008,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000009,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000010,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000011,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000012,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000013,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000014,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000015,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000016,Discharged Home,2.0,2.0,1,True,True,Both signals
+CF-0000017,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000018,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000019,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000020,Discharged Home,0.0,0.0,2,False,True,Reworked status only
+CF-0000021,Admitted,0.0,0.0,3,False,True,Reworked status only
+CF-0000022,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000023,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000024,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000025,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000026,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000027,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000028,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000029,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000030,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000031,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000032,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000033,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000034,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000035,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000036,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000037,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000038,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000039,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000040,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000041,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000042,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000043,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000044,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000045,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000046,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000047,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000048,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000049,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000050,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000051,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000052,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000053,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000054,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000055,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000056,Left Before Completion,1.0,1.0,0,True,False,Repeated activity only
+CF-0000057,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000058,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000059,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000060,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000061,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000062,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000063,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000064,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000065,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000066,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000067,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000068,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000069,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000070,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000071,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000072,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000073,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000074,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000075,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000076,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000077,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000078,Discharged Home,1.0,1.0,2,True,True,Both signals
+CF-0000079,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000080,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000081,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000082,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000083,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000084,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000085,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000086,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000087,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000088,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000089,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000090,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000091,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000092,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000093,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000094,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000095,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000096,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000097,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000098,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000099,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000100,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000101,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000102,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000103,Left Before Completion,1.0,1.0,1,True,True,Both signals
+CF-0000104,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000105,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000106,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000107,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000108,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000109,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000110,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000111,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000112,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000113,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000114,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000115,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000116,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000117,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000118,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000119,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000120,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000121,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000122,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000123,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000124,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000125,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000126,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000127,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000128,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000129,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000130,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000131,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000132,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000133,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000134,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000135,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000136,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000137,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000138,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000139,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000140,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000141,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000142,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000143,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000144,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000145,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000146,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000147,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000148,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000149,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000150,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000151,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000152,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000153,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000154,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000155,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000156,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000157,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000158,Admitted,0.0,0.0,2,False,True,Reworked status only
+CF-0000159,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000160,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000161,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000162,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000163,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000164,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000165,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000166,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000167,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000168,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000169,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000170,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000171,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000172,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000173,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000174,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000175,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000176,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000177,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000178,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000179,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000180,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000181,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000182,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000183,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000184,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000185,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000186,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000187,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000188,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000189,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000190,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000191,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000192,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000193,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000194,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000195,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000196,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000197,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000198,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000199,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000200,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000201,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000202,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000203,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000204,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000205,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000206,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000207,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000208,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000209,Left Before Completion,0.0,0.0,1,False,True,Reworked status only
+CF-0000210,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000211,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000212,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000213,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000214,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000215,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000216,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000217,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000218,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000219,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000220,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000221,Left Before Completion,0.0,0.0,1,False,True,Reworked status only
+CF-0000222,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000223,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000224,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000225,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000226,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000227,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000228,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000229,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000230,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000231,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000232,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000233,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000234,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000235,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000236,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000237,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000238,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000239,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000240,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000241,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000242,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000243,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000244,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000245,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000246,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000247,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000248,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000249,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000250,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000251,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000252,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000253,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000254,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000255,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000256,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000257,Transferred,0.0,0.0,1,False,True,Reworked status only
+CF-0000258,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000259,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000260,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000261,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000262,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000263,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000264,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000265,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000266,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000267,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000268,Admitted,1.0,1.0,1,True,True,Both signals
+CF-0000269,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000270,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000271,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000272,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000273,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000274,Admitted,1.0,1.0,1,True,True,Both signals
+CF-0000275,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000276,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000277,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000278,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000279,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000280,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000281,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000282,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000283,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000284,Admitted,1.0,1.0,2,True,True,Both signals
+CF-0000285,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000286,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000287,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000288,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000289,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000290,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000291,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000292,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000293,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000294,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000295,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000296,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000297,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000298,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000299,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000300,Discharged Home,0.0,0.0,2,False,True,Reworked status only
+CF-0000301,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000302,Transferred,0.0,0.0,2,False,True,Reworked status only
+CF-0000303,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000304,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000305,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000306,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000307,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000308,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000309,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000310,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000311,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000312,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000313,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000314,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000315,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000316,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000317,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000318,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000319,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000320,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000321,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000322,Admitted,1.0,1.0,1,True,True,Both signals
+CF-0000323,Transferred,0.0,0.0,1,False,True,Reworked status only
+CF-0000324,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000325,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000326,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000327,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000328,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000329,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000330,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000331,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000332,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000333,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000334,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000335,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000336,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000337,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000338,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000339,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000340,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000341,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000342,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000343,Left Before Completion,1.0,1.0,0,True,False,Repeated activity only
+CF-0000344,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000345,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000346,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000347,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000348,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000349,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000350,Transferred,0.0,0.0,1,False,True,Reworked status only
+CF-0000351,Transferred,0.0,0.0,1,False,True,Reworked status only
+CF-0000352,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000353,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000354,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000355,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000356,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000357,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000358,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000359,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000360,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000361,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000362,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000363,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000364,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000365,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000366,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000367,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000368,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000369,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000370,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000371,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000372,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000373,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000374,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000375,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000376,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000377,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000378,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000379,Discharged Home,1.0,1.0,2,True,True,Both signals
+CF-0000380,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000381,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000382,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000383,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000384,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000385,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000386,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000387,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000388,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000389,Left Before Completion,1.0,1.0,1,True,True,Both signals
+CF-0000390,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000391,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000392,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000393,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000394,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000395,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000396,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000397,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000398,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000399,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000400,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000401,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000402,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000403,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000404,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000405,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000406,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000407,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000408,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000409,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000410,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000411,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000412,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000413,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000414,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000415,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000416,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000417,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000418,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000419,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000420,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000421,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000422,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000423,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000424,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000425,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000426,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000427,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000428,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000429,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000430,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000431,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000432,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000433,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000434,Transferred,1.0,1.0,0,True,False,Repeated activity only
+CF-0000435,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000436,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000437,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000438,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000439,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000440,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000441,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000442,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000443,Discharged Home,0.0,0.0,2,False,True,Reworked status only
+CF-0000444,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000445,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000446,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000447,Discharged Home,2.0,2.0,0,True,False,Repeated activity only
+CF-0000448,Transferred,1.0,1.0,1,True,True,Both signals
+CF-0000449,Admitted,0.0,0.0,1,False,True,Reworked status only
+CF-0000450,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000451,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000452,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000453,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000454,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000455,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000456,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000457,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000458,Discharged Home,0.0,0.0,2,False,True,Reworked status only
+CF-0000459,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000460,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000461,Left Before Completion,0.0,0.0,0,False,False,Neither signal
+CF-0000462,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000463,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000464,Admitted,1.0,1.0,0,True,False,Repeated activity only
+CF-0000465,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000466,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000467,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000468,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000469,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000470,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000471,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000472,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000473,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000474,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000475,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000476,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000477,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000478,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000479,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000480,Discharged Home,0.0,0.0,1,False,True,Reworked status only
+CF-0000481,Transferred,1.0,1.0,1,True,True,Both signals
+CF-0000482,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000483,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000484,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000485,Admitted,1.0,1.0,1,True,True,Both signals
+CF-0000486,Admitted,1.0,1.0,1,True,True,Both signals
+CF-0000487,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000488,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000489,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000490,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000491,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000492,Transferred,0.0,0.0,0,False,False,Neither signal
+CF-0000493,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000494,Discharged Home,1.0,1.0,1,True,True,Both signals
+CF-0000495,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000496,Admitted,0.0,0.0,0,False,False,Neither signal
+CF-0000497,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000498,Discharged Home,1.0,1.0,0,True,False,Repeated activity only
+CF-0000499,Discharged Home,0.0,0.0,0,False,False,Neither signal
+CF-0000500,Discharged Home,0.0,0.0,0,False,False,Neither signal
